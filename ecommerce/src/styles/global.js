@@ -8,12 +8,11 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
 
-  body {
-    background: #f0f0f5;
-  }
 
   html, body, #root{
-    height: 100%;
+    background:  #303030;
+    color: #ffffff;
+    
   }
 
   body, input, button {
@@ -25,7 +24,7 @@ export default createGlobalStyle`
   }
 
   #root{
-    max-width: 700px;
+    max-width: 75%;
     margin: 0 auto;
     padding: 40px 20px;
   }
